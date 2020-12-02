@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@import "partials/variables";
+@import "partials/bulma";
+@import "partials/fonts";
+
+#app {
+  font-family: $open-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $dark;
+}
+
+h1 {
+    color: $green !important;
+    margin-bottom: 5px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+  .buttons {
+    margin-bottom: 0;
+    &:first-child {
+      margin-right: 15px;
+    }
+    .button {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.box {
+  margin-bottom: 15px;
+}

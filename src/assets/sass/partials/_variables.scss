@@ -1,0 +1,11 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+$family-sans-serif: "Poppins", Arial, Helvetica, sans-serif;
+
+$gap: 32px; // original 64px;
+$tablet: 671px;
+$desktop: 881px; // + (2 * $gap);
+$widescreen: 1041px; // + (2 * $gap);
+$green: #00ffa1;
+$black: #000000;
