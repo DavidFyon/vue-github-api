@@ -19,14 +19,19 @@
             <div class="menu">
                 <router-link to="/">
                     <div class="buttons">
-                        <button class="button is-primary">Languages</button>
-                    </div>
-                </router-link>
-                <router-link to="/repo">
-                    <div class="buttons">
                         <button class="button is-primary">Repos</button>
                     </div>
                 </router-link>
+                <router-link to="/languages">
+                    <div class="buttons">
+                        <button class="button is-primary">Languages Repo</button>
+                    </div>
+                </router-link>
+                <!-- <router-link to="/user">
+                    <div class="buttons">
+                        <button class="button is-primary">User Languages</button>
+                    </div>
+                </router-link> -->
             </div>
         </div>
  

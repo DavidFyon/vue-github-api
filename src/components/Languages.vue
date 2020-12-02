@@ -41,7 +41,6 @@ export default {
 				this.error = null;
 				this.loading = true;
                 this.languages = await ApiService.getLanguagesRepo(repository); 
-                console.log(this.languages);
 			} catch (err) {
 				if (err.data && err.data.message) {
 					this.error = err.data.message;

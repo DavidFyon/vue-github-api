@@ -43,7 +43,6 @@ export default {
 				this.error = null;
 				this.loading = true;
                 this.repos = await ApiService.getPublicRepos();
-                console.log(this.repos); 
 			} catch (err) {
 				if (err.data && err.data.message) {
 					this.error = err.data.message;
